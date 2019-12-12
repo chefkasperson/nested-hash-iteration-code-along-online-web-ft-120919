@@ -21,5 +21,6 @@ def remove_strawberry(contacts)
       new_array << flavor
     end
     }
-
+    contacts["Freddy Mercury"][:favorite_ice_cream_flavors] = new_array
+    contacts
 end
