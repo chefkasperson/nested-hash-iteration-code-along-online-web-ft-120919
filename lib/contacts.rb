@@ -16,7 +16,7 @@ require 'pry'
 
 def remove_strawberry(contacts)
   new_array = []
-  contacts["Freddy Mercury"][:favorite_ice_cream_flavors].each {|flavor| 
+  contacts["Freddy Mercury"][:favorite_ice_cream_flavors].each {|flavor|
     if flavor != "strawberry"
       new_array << flavor
     end
